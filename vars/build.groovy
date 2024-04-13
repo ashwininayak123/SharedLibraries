@@ -18,6 +18,6 @@ def call(String mavenGoal){
      }
    else if ("${mavenGoal}" == "Install")
       {
-        sh "mvn clean Install"
+        sh "mvn clean install"
      }
 }
